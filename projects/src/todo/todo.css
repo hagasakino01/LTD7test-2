@@ -1,0 +1,79 @@
+.todo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input{
+    margin-bottom: 10px;
+}
+.box-input{
+    height: 30px;
+    border-radius: 5px;
+}
+.add{
+    height: 30px;
+    border-radius: 4px;
+}
+
+
+
+
+.box-list{
+    box-sizing: border-box;
+    width: 300px;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    background: #F1F2F5;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 15px;
+ 
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 275px;
+    align-items: center;
+
+}
+.content{
+    box-sizing: border-box;
+    
+    justify-self: start;
+    cursor: pointer;
+    text-decoration: none;
+   
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+.content-completed{
+    box-sizing: border-box;
+    
+    justify-self: start;
+    cursor: pointer;
+    text-decoration: none;
+    
+    display: flex;
+    align-items: center;
+
+    align-items: flex-start;
+    text-decoration: line-through;
+    margin-left: 15px;
+}
+.button-del{
+    justify-self: end;
+    width: 40px;
+    height: 25px;
+    
+}
